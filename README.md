@@ -1,2 +1,1 @@
-# Tablero
-Juego de mesa
+
