@@ -55,8 +55,10 @@ PromedioF=(F1+F2+F3)/3
 PromedioI=(I1+I2+I3)/3
 PromedioG=(G1+G2+G3)/3
 PromedioB=(B1+B2+B3)/3
-
- suma = M1+M2+M3+Q1+Q2+Q3+F1+F2+F3+I1+I2+I3+G1+G2+G3+B1+B2+B3
+total = 360
+suma = M1+M2+M3+Q1+Q2+Q3+F1+F2+F3+I1+I2+I3+G1+G2+G3+B1+B2+B3
+Exito = suma  /  total
+Porcentaje = Exito * total 
 Fin Para
     Escribir "            Primer lacso    " "Segundo    " "Tercer   "  "Promedio de notas"   
 	Escribir  "Matematica   " M1 ".              "  M2 ".       "  M3 ".      "   PromedioM
@@ -65,5 +67,5 @@ Fin Para
 	Escribir  "Ingles       " I1 ".              "  I2 ".       "  I3 ".      "   PromedioI
 	Escribir  "Geografia    " G1 ".              "  G2 ".       "  G3 ".      "   PromedioG
 	Escribir  "Biologia     " B1 ".              "  B2 ".       "  B3 ".      "   PromedioB
-	Escribir  suma
+	Escribir  Exito
 FinAlgoritmo
